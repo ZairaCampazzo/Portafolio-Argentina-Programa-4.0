@@ -1,0 +1,135 @@
+
+body{
+    background-color:  #f1ffcb;
+    font-family: 'Montserrat', 'Source Serif Pro', serif;
+}
+
+ol, ul,li {
+    list-style: none;
+}
+
+
+.arg-prog{
+    background-color: black;
+    border-radius: 25%;
+    margin: 10px;
+    padding: 1rem;
+    width: 300px;
+}
+
+.titulo__network{
+    font-size: 30px;
+    margin-top: -250px;
+    text-align: right;
+    padding: 2%;
+}
+
+.titulo__network__item{
+    background-color: rgb(245, 220, 220);
+}
+
+.titulo__network__item:hover{
+    background-color: aqua;
+    border-radius: 20%;
+    font-size: 25px;
+    padding: 1%;
+}
+
+.icono-cv, .icono-github, .icono-instagram, .icono-linkedin{
+    width: 100px;
+}
+
+.imagen__fondo{
+    height: 400px;
+    margin: -10px;
+    padding-top: 70px;
+    width: 100%;
+}
+
+.menu__titulo{
+    color: #1add09;
+    display: block;
+    font-size: 3rem;
+    font-weight: bold;
+    left: 50%;
+    margin: 20px;
+    margin-top: -2%;
+    position: relative;
+    text-shadow: 0 4px 4px rgb(21, 208, 241);
+    transform: translate(-50%, -50%);
+    width: 100%;
+}
+
+.imagen__perfil{
+    border: 22px solid rgb(147, 230, 205);
+    border-radius: 100%;
+    float: left;
+    margin: 15px;
+    width: 350px;
+}
+
+.titulo__subsection{
+    font-size: 18px;
+    font-style: italic;
+    text-align: center;
+}
+
+.titulo__bio , .about__titulo , .skills__titulo , .academic__titulo , .proyecto__section__titulo , .footer{
+    background-color: wheat;
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: 3%;
+    text-align: center;
+}
+
+.skills__box , .academic__cursos__box , .proyecto__box{
+    display: inline-block;
+    text-align: center;
+}
+
+.about__parrafo, .skills__name , .proyecto__titulo{
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 1rem;
+}
+
+.academic__cursos__box{
+    margin: 2rem;
+    padding: 1rem;
+}
+
+.proyecto__box{
+    margin-left: 3rem;
+}
+
+.proyecto__img{
+    border: 2px solid black;
+    border-radius: 5%;
+    width: 45rem;
+}
+
+.proyecto__texto{
+    font-size: 18px;
+    padding: 1%;
+}
+
+.proyecto__boton--repo , .proyecto__boton--demo{
+    border-radius: 25%;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 300;
+    margin: 1%;
+    
+}
+
+.proyecto__boton--repo:hover{
+    background-color: aqua;
+}
+
+.proyecto__boton--demo:hover{
+    background-color: lightsalmon;
+} 
+
+.footer{
+    text-shadow: 2px 2px 2px rgb(88, 160, 243);
+}
